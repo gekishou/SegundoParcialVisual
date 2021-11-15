@@ -1,0 +1,42 @@
+﻿body { /*color de texto y fondo en el cuerpo*/
+    color: #aa7700;
+    background-color: black;
+}
+
+header { /*color de fondo en el encabezado*/
+    background-color: black;
+}
+
+
+.contenido { /*grid para las imágenes*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+img { /*formato para las imágenes*/
+    height: 400px;
+    width: 400px;
+    display: grid;
+}
+
+.nav-link, a { /*color de hipervínculos*/
+    color: red;
+}
+
+.navbar-brand { /*color de hipervínculos*/
+    color: gold;
+}
+
+th { /*formato encabezado tabla*/
+    color: purple;
+}
+
+td { /*formato contenido tabla*/
+    color: #aa7700;
+}
+
+.btn.btn-primary { /*botón OK*/
+    background-color: green;
+    border: darkgreen;
+}
