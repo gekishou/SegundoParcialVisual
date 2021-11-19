@@ -42,6 +42,6 @@ td { /*formato contenido tabla*/
     border: darkgreen;
 }
 
-#pie {
+#pie { /*color para el pie de pagina*/
     color: #aa7700;
 }

@@ -5,11 +5,8 @@
 <div class="text-center">
     <h1 class="display-4">Bienvenidos a Yenny Ateneo</h1>
 
-    @*<div class="contenido">*@
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Yenny_Ateneo_Grand_Splendid.jpg" id="foto" />
-    @*<img src="https://upload.wikimedia.org/wikipedia/commons/6/66/El_Ateneo_Bookstore.jpg" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/El_Ateneo_bookstore_%285459414085%29.jpg" />*@
-    @*</div>*@
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Yenny_Ateneo_Grand_Splendid.jpg" id="foto" /> <!--Se deja una sola foto que se modifica mediante javascript-->
+
 
 
     <p>
@@ -19,12 +16,14 @@
         En 2008, fue elegida por el periódico británico The Guardian como la segunda librería más hermosa del mundo,
         y el 7 de enero de 2019 National Geographic la tituló la librería comercial más bella del mundo.
     </p>
-    <button onclick="cambiarFoto();" style="background-color: brown; border-block-color: black; color: pink; display:inline-block;">Cambiar imagen </button>
+    <button onclick="cambiarFoto();" style="background-color: brown; border-block-color: black; color: pink; display:inline-block;">Cambiar imagen </button> <!--Boton para cambiar fotos-->
 
+    <!--Funcion para cambiar fotos-->
     <script>
-        function cambiarFoto() {
-            var fotoActual = document.getElementById("foto");
-            var sourceFotoActual = fotoActual.src;
+        function cambiarFoto() { 
+            var fotoActual = document.getElementById("foto"); //obtener el elemento con ID foto
+            var sourceFotoActual = fotoActual.src; //extraer el valor del atributo "src" de la foto
+            //Simplemente se salta mediante if y else entre las fotos existentes.
             if (sourceFotoActual == "https://upload.wikimedia.org/wikipedia/commons/a/ac/Yenny_Ateneo_Grand_Splendid.jpg") {
                 fotoActual.src = "https://upload.wikimedia.org/wikipedia/commons/6/66/El_Ateneo_Bookstore.jpg";
             }

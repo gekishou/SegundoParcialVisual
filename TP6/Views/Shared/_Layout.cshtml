@@ -27,18 +27,19 @@
                         </li>
 
                     </ul>
-                    <button onclick="cambiarFondo();" style="background-color: brown; border-block-color: black; color: pink; ">Cambiar fondo </button>
+                    <button onclick="cambiarFondo();" style="background-color: brown; border-block-color: black; color: pink; ">Cambiar fondo </button> <!--Boton para cambiar el color de fondo-->
+                    <!--Funcion para cambiar el color de fondo-->
                     <script>
                         function cambiarFondo() {
-                            var cuerpo = document.body.style;
-                            var encabezado = document.getElementById("nav");
-                            if (cuerpo.backgroundColor == 'lightgray') {
-                                cuerpo.backgroundColor = 'black';
-                                encabezado.style.backgroundColor = 'black';
+                            var cuerpo = document.body.style; //se obtiene el atributo style del elemento body
+                            var encabezado = document.getElementById("nav"); //se obtiene el elemento nav para modificar el color del encabezado
+                            if (cuerpo.backgroundColor == 'lightgray') { //si el fondo actuálmente es gris:
+                                cuerpo.backgroundColor = 'black'; //cambiar el color de fondo del body a negro
+                                encabezado.style.backgroundColor = 'black'; //cambiar el encabezado a negro
                             }
-                            else {
-                                cuerpo.backgroundColor = 'lightgray';
-                                encabezado.style.backgroundColor = 'lightgray';
+                            else { //caso contrario:
+                                cuerpo.backgroundColor = 'lightgray'; //cambiar el color de fondo del body a gris
+                                encabezado.style.backgroundColor = 'lightgray'; //cambiar el encabezado a gris
                             }
     
                         }
