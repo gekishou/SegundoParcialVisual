@@ -7153,11 +7153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gonzalo\\Desktop\\ESBA\\Visual\\TP6\\TP6Visual\\TP6\\TP6.csproj",
+      "projectUniqueName": "C:\\Users\\Gonzalo\\Desktop\\ESBA\\Visual\\Segundo Parcial\\SegundoParcialVisual\\TP6\\TP6.csproj",
       "projectName": "TP6",
-      "projectPath": "C:\\Users\\Gonzalo\\Desktop\\ESBA\\Visual\\TP6\\TP6Visual\\TP6\\TP6.csproj",
+      "projectPath": "C:\\Users\\Gonzalo\\Desktop\\ESBA\\Visual\\Segundo Parcial\\SegundoParcialVisual\\TP6\\TP6.csproj",
       "packagesPath": "C:\\Users\\Gonzalo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gonzalo\\Desktop\\ESBA\\Visual\\TP6\\TP6Visual\\TP6\\obj\\",
+      "outputPath": "C:\\Users\\Gonzalo\\Desktop\\ESBA\\Visual\\Segundo Parcial\\SegundoParcialVisual\\TP6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gonzalo\\AppData\\Roaming\\NuGet\\NuGet.Config",

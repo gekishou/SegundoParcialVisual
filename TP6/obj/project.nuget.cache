@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+buRx31CIlyh4HuQ2Lfpj020qHBFNeVacv+HgWutrWJCwfJm8f2OwokQWhkHsR2IAgRBofWAYfQRJzz0Qp9XWA==",
+  "dgSpecHash": "ziozjNuM/mtOaNcV/abBSEsPjxa6ZPK8kbyI2Pk6Gh7MoZH7i1fVCkSH7E3xdFgB7QTPRZO0VCRxlqKcqMExGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gonzalo\\Desktop\\ESBA\\Visual\\TP6\\TP6Visual\\TP6\\TP6.csproj",
+  "projectFilePath": "C:\\Users\\Gonzalo\\Desktop\\ESBA\\Visual\\Segundo Parcial\\SegundoParcialVisual\\TP6\\TP6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gonzalo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Gonzalo\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

@@ -10,9 +10,9 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm  border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm  border-bottom box-shadow mb-3" id="nav">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">TP6 Libería</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Segundo Parcial Libería</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,6 +27,24 @@
                         </li>
 
                     </ul>
+                    <button onclick="cambiarFondo();" style="background-color: brown; border-block-color: black; color: pink; ">Cambiar fondo </button>
+                    <script>
+                        function cambiarFondo() {
+                            var cuerpo = document.body.style;
+                            var encabezado = document.getElementById("nav");
+                            if (cuerpo.backgroundColor == 'lightgray') {
+                                cuerpo.backgroundColor = 'black';
+                                encabezado.style.backgroundColor = 'black';
+                            }
+                            else {
+                                cuerpo.backgroundColor = 'lightgray';
+                                encabezado.style.backgroundColor = 'lightgray';
+                            }
+    
+                        }
+                    </script>
+
+
                 </div>
             </div>
         </nav>
@@ -38,9 +56,12 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2021 - TP6 Librería
+        <div class="container" id="pie">
+            @*&copy;*@ 2021 - Segundo Parcial Librería
+
         </div>
+
+
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

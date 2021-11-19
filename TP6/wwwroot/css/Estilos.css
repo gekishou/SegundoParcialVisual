@@ -8,16 +8,17 @@ header { /*color de fondo en el encabezado*/
 }
 
 
-.contenido { /*grid para las imágenes*/
+/*.contenido { 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
-}
+}*/
+/*grid para las imagenes*/
 
 img { /*formato para las imágenes*/
     height: 400px;
-    width: 400px;
-    display: grid;
+    width: 850px;
+/*    display: grid;*/
 }
 
 .nav-link, a { /*color de hipervínculos*/
@@ -25,7 +26,7 @@ img { /*formato para las imágenes*/
 }
 
 .navbar-brand { /*color de hipervínculos*/
-    color: gold;
+    color: darkgoldenrod;
 }
 
 th { /*formato encabezado tabla*/
@@ -39,4 +40,8 @@ td { /*formato contenido tabla*/
 .btn.btn-primary { /*botón OK*/
     background-color: green;
     border: darkgreen;
+}
+
+#pie {
+    color: #aa7700;
 }
